@@ -14,3 +14,5 @@ My first hello world in c programming
 7. 6-size.c prints the size of various data types on the computer it is compiled and run on.
 
 8. 100-intel generates the assembly code of a C code in the Intel Syntax.
+
+9. 101-quote.c prints exactly: and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
