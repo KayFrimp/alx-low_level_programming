@@ -12,3 +12,5 @@ My first hello world in c programming
 6. 5-printf.c prints exacty with proper grammar, but the outcome is a piece of art.
 
 7. 6-size.c prints the size of various data types on the computer it is compiled and run on.
+
+8. 100-intel generates the assembly code of a C code in the Intel Syntax.
