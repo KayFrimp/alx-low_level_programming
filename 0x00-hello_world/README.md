@@ -8,3 +8,5 @@ My first hello world in c programming
 4. 3-name compiles a C file and creates an executable named cisfun.
 
 5. 4-puts.c prints exactly "Programming is like building a multilingual puzzle.
+
+6. 5-printf.c prints exacty with proper grammar, but the outcome is a piece of art,
