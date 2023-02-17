@@ -9,4 +9,6 @@ My first hello world in c programming
 
 5. 4-puts.c prints exactly "Programming is like building a multilingual puzzle.
 
-6. 5-printf.c prints exacty with proper grammar, but the outcome is a piece of art,
+6. 5-printf.c prints exacty with proper grammar, but the outcome is a piece of art.
+
+7. 6-size.c prints the size of various data types on the computer it is compiled and run on.
