@@ -9,3 +9,5 @@
 4. 3-print_alphabets.c prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
 5. 4-print_alphabt.c prints all  alphabets except q and e in lowercase.
+
+6. 5-print_numbers.c prints all single digit numbers of base 10 starting from 0.
