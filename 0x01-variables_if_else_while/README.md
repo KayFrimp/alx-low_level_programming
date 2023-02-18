@@ -7,3 +7,5 @@
 3. 2-print_alphabet.c prints the alphabet in lowercase, followed by a new line.
 
 4. 3-print_alphabets.c prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+5. 4-print_alphabt.c prints all  alphabets except q and e in lowercase.
