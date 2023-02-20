@@ -25,3 +25,5 @@
     The two digits must be different.
 
 12. 101-print_comb4.c prints all possible different combinations of three digits.
+
+13. 102-print_comb5.c prints all possible combinations of two two-digit numbers ranging from 0 to 99.
