@@ -19,3 +19,7 @@
 9. 8-print_base16.c prints all the numbers of base 16 in lowercase followed by a new line.
 
 10. 9-print_comb.c prints all possible combinations of single-digit numbers.
+
+11. 100-print_comb3.c prints all possible different combinations of two digits:
+    Numbers must be separated by ,. followed by a space
+    The two digits must be different.
