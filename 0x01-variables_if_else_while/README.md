@@ -23,3 +23,5 @@
 11. 100-print_comb3.c prints all possible different combinations of two digits:
     Numbers must be separated by ,. followed by a space
     The two digits must be different.
+
+12. 101-print_comb4.c prints all possible different combinations of three digits.
