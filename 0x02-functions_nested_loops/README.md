@@ -9,3 +9,5 @@ C - Functions, nested loops
 3. 3-islower.c checks for lowercase character.
 
 4. 4-isalpha.c checks for alphabetic character.
+
+5. 5-sign.c prints +, 0, and -1 if number is greater than zero, zero, and less than zero respectively.
