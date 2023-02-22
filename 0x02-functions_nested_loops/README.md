@@ -13,3 +13,5 @@ C - Functions, nested loops
 5. 5-sign.c prints +, 0, and -1 if number is greater than zero, zero, and less than zero respectively.
 
 6. 6-abs.c computes the absolute value of an integer.
+
+7. 7-print_last_digit.c prints the last digit of a number.
