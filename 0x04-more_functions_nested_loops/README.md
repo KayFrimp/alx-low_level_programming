@@ -5,3 +5,5 @@ MORE FUNCTIONS, MORE NESTED LOOPS
 1. 1-isdigit.c checks for a digit (0 through 9).
 
 2. 2-mul.c multiplies two integers.
+
+3. 3-print_numbers.c prints the numbers, from 0 to 9, followed by a new line.
