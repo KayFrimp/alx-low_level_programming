@@ -19,3 +19,5 @@ MORE FUNCTIONS, MORE NESTED LOOPS
 8. 8-print_square.c prints a square with the character #.
 
 9. 9-fizz_buzz.c prints numbers from 1 to 100, but for multiples of 3 print Fizz instead of number and for multiples of 5 print Buzz, and for multiples of both 3 and 5, print FizzBuzz.
+
+10. 10-print_triangle.c prints a triangle with the character #.
