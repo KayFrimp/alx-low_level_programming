@@ -20,3 +20,5 @@ POINTERS, ARRAYS & STRINGS
 
 9. 9-strcpy.c copies the string pointed to by src, including the terminatinb null byte (\0), to the buffer pointed to by dest.
 Prototype: char *_strcpy(char *dest, char *src);
+
+10. 100-atoi.c returns numbers in a string factoring the + or - sign that precedes the number.
