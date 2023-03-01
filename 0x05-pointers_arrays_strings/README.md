@@ -17,3 +17,6 @@ POINTERS, ARRAYS & STRINGS
 7. 7-puts_half.c prints the second half of a string, followed by a  new line.
 
 8. 8-print_array.c prints n elements of an array of integers, followed by a new line.
+
+9. 9-strcpy.c copies the string pointed to by src, including the terminatinb null byte (\0), to the buffer pointed to by dest.
+Prototype: char *_strcpy(char *dest, char *src);
