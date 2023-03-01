@@ -13,3 +13,5 @@ POINTERS, ARRAYS & STRINGS
 5. 5-rev_string.c is a function that reverses a string.
 
 6. 6-puts2.c prints every other character of a string starting with the first characer, followed by a new line.
+
+7. 7-puts_half.c prints the second half of a string, followed by a  new line.
