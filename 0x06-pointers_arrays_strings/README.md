@@ -1,3 +1,5 @@
 POINTERS, ARRAYS & STRINGS
 
 0. 0-strcat.c - Concatenates two strings.
+
+1. 1-strncat.c - Concatenates two strings using at most n bytes specified for the second string.
