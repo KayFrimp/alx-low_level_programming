@@ -7,3 +7,5 @@ POINTERS, ARRAYS & STRINGS
 2. 2-strncpy.c - copies the string pointed to by src, including the terminating null byte to the buffer pointed to by dest.
 
 3. 3-strcmp.c - Compares two strings like the standard library function strcmp.
+
+4. 4-rev_array.c - Reverses the content of an array of integers.
