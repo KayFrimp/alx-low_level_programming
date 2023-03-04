@@ -11,3 +11,5 @@ POINTERS, ARRAYS & STRINGS
 4. 4-rev_array.c - Reverses the content of an array of integers.
 
 5. 5-string_toupper.c - chanhes all lowercase letters of a string to uppercase.
+
+6. 6-cap_string.c - capitalizes all words of a string.
