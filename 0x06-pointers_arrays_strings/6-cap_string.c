@@ -14,6 +14,9 @@ char *cap_string(char *str)
 
 	for (i = 0; *(str + i) != '\0'; i++)
 	{
+		if (i == 0 && (*(str + i) >= 97 && *(str + i) <= 122))
+			*(str + i) -= 32;
+
 		for (j = 0; delim[j] != '\0'; j++)
 		{
 			if (*(str + i) == delim[j])
