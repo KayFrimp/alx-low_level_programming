@@ -9,3 +9,5 @@
 3. 3-factorial.c - function returns the factorial of a given number.
 
 4. 4-pow_recursion.c - function returns the value of x raised to the power of y.
+
+5. 5-sqrt_recursion.c - function returns the natural square root of a number.
