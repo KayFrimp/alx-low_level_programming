@@ -7,12 +7,9 @@
  */
 char *_strchr(char *s, char c)
 {
-	int len = 0, i;
+	int i;
 
-	while (s[len] != '\0')
-		len++;
-
-	for (i = 0; i < len; i++)
+	for (i = 0; s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
 		{
