@@ -1,4 +1,5 @@
-#include <stdlib>
+#include "main.h"
+#include <stdlib.h>
 
 /**
  * str_concat - Appends s1 with s2 and stores in a new memory location.
