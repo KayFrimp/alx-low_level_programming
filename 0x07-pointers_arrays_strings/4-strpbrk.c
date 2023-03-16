@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * _strpbrk - Locates the first occurrence in the string s
  * @s: char pointer to string
@@ -7,18 +9,14 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int j, a_len = 0;
+	int j;
 
-	while (accept[a_len] != '\0')
-		a_len++;
 	while (*s)
 	{
-		for (j = 0; j <= a_len; j++)
+		for (j = 0; accept[j]; j++)
 		{
 			if (*s == accept[j])
-			{
 				return (s);
-			}
 		}
 		s++;
 	}
