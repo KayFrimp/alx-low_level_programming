@@ -9,3 +9,5 @@
 3. 3-strspn.c - Function gets the length of a prefix substring.
 
 4. 4-strpbrk.c - Function searches a string s for any set of bytes in accept.
+
+5. 5-strstr.c - Function locates a substring in a haystack and returns a pointer to the beginning of the located substring.
