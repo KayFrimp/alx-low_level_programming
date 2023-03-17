@@ -7,3 +7,5 @@
 2. 2-str_concat.c - Function returns a pointer to a newly allocated space in memory containing two concatenated strings.
 
 3. 3-alloc_grid.c - Function returns a pointer to a 2 dimensional array of integers.
+
+4. 4-free_grid.c - Function frees a 2D Array created in 3-alloc_grid.c(alloc_grid) function.
