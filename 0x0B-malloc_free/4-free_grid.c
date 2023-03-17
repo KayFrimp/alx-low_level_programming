@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 /**
- * free-grid - Frees 2D Array created by alloc_grid fxn.
+ * free_grid - Frees 2D Array created by alloc_grid fxn.
  * @grid: Pointer to a 2D Array
  * @height: Height of 2D Array
  *
