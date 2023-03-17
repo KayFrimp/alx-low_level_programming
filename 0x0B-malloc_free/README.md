@@ -4,4 +4,6 @@
 
 1. 1-strdup.c - Function returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a paramaeter.
 
-2. 2-str_concat.c - Function returns a pointer to a newly allocated space in memory containing two concatenated strings. 
+2. 2-str_concat.c - Function returns a pointer to a newly allocated space in memory containing two concatenated strings.
+
+3. 3-alloc_grid.c - Function returns a pointer to a 2 dimensional array of integers.
