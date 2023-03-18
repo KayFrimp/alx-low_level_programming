@@ -7,3 +7,5 @@
 2. 2-args.c - Prints all arguments program receives.
 
 3. 3-mul.c - Program multiplies two numbers.
+
+4. 4-add.c - Program adds positive numbers.
