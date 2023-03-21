@@ -7,3 +7,5 @@
 2. 2-print_dog.c - Function prints struct dog.
 
 3. dog.h - With the help of typdef a new type dog_t is defined as new name for struct dog.
+
+4. 4-new_dog.c - Function creates a new dog from typedef dog_t of struct dog.
