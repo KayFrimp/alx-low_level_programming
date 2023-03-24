@@ -10,12 +10,12 @@
  */
 void print_all(const char * const format, ...)
 {
-	va_list all_list;
-	unsigned int i = 0, print;
+	int i = 0, print;
 	char *str;
+	va_list all_list;
 
 	va_start(all_list, format);
-	while (format[i] != '\0' && format != NULL)
+	while (format != NULL && format[i] != '\0')
 	{
 		switch (format[i])
 		{
@@ -28,7 +28,7 @@ void print_all(const char * const format, ...)
 			print = 1;
 			break;
 		case 'c':
-                        printf("%c", va_arg(all_list, int));
+			printf("%c", va_arg(all_list, int));
 			print = 1;
 			break;
 		case 's':
