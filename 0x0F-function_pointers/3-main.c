@@ -12,6 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int (*calc_ptr)(int, int);
+	char *op;
 
 	if (argc != 4)
 	{
@@ -19,8 +20,9 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	calc_ptr = get_op_func(argv[2]);
-	if (!calc_ptr)
+	op = argv[2];
+	calc_ptr = get_op_func(op);
+	if (!calc_ptr || op[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
