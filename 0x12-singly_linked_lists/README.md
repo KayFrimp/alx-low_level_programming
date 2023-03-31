@@ -7,3 +7,5 @@
 2. 2-add_node.c - function adds a new node at the beginning of a list_t list.
 
 3. 3-add_node_end.c = function adds a new node at the end of a list_t list.
+
+4. 4-free_list.c - function frees a list_t list.
