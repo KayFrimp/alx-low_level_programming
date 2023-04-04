@@ -5,3 +5,5 @@
 1. 1-listint_len.c - Function returns the number of elements in a linked listint_t list.
 
 2. 2-add_nodeint.c - Adds a new node at the beginning of a listint_t list.
+
+3. 3-add_nodint_end.c - Adds a new node at the end of a listint_t list.
