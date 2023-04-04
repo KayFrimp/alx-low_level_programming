@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_listint - Frees a listint_t list
+ * free_listint2 - Frees a listint_t list
  * @head: Double pointer to first element
  *
  * Return: nothing
