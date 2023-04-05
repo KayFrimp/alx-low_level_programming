@@ -17,3 +17,5 @@
 7. 7-get_nodeint.c - function returns the nth node of a listint_t linked list.
 
 8. 8-sum_listint.c - function returns the sum of all the datat(n) of a listint_t linked list.
+
+9. 10-delete_nodeint.c - function deletes the node at the index, index of a listint_t linked list. 
