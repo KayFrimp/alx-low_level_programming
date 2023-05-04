@@ -11,3 +11,5 @@
 4. 4-clear_bit.c - function sets the value of a bit to 0 at a given index.
 
 5. 5-flip_bits.c - function returns the number of bits you would need to flip to get from one number to another.
+
+6. 100-get_endianness.c - function that checks the endianness.
