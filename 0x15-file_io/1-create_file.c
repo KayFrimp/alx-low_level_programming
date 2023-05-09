@@ -15,14 +15,15 @@ int create_file(const char *filename, char *text_content)
 
 	if (filename == NULL)
 		return (-1);
-	while (text_content[len] != '\0')
-		len++;
+
 	/* create file and maintain the permissions if it already exists */
 	fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
 	if (fd == -1)
 		return (-1);
 	if (text_content != NULL)
 	{
+		while (text_content[len] != '\0')
+			len++;
 		w_bytes = write(fd, text_content, len);
 		if (w_bytes == -1)
 			return (-1);
