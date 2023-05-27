@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 			"Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
-	while (letters_rd == 1024)
+	while (letters_rd > 0)
 	{
 		letters_wr = write(des_fd, buffer, letters_rd);
 		if (des_fd == -1 || letters_wr == -1)
