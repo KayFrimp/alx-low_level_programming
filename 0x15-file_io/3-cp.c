@@ -54,13 +54,15 @@ int main(int argc, char *argv[])
 	while (letters_rd > 0)
 	{
 		letters_wr = write(des_fd, buffer, letters_rd);
-		if (des_fd == -1 || letters_wr == -1 || letters_wr != letters_rd)
+		if (des_fd == -1 || letters_wr == -1 ||
+		    letters_wr != letters_rd)
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Can't write to %s\n", argv[2]);
 			exit(99);
 		}
 		letters_rd = read(src_fd, buffer, 1024);
+		des_fd = open(argv[2], O_WRONLY | O_APPEND);
 	}
 	close_fd(src_fd);
 	close_fd(des_fd);
