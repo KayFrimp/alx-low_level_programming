@@ -27,11 +27,11 @@ void close_fd(int fd)
  */
 int main(int argc, char *argv[])
 {
-	int src_fd, des_fd, w_fd;
+	int src_fd, des_fd;
 	ssize_t letters_rd, letters_wr;
 	char buffer[1024];
 
-	if (ac != 3)
+	if (argc != 3)
 	{
 		dprintf(2, "Usage: cp file_from file_to\n");
 		exit(97);
@@ -64,6 +64,6 @@ int main(int argc, char *argv[])
 		des_fd = open(argv[2], O_WRONLY | O_APPEND);
 	}
 	close_fd(src_fd);
-	colse_fd(des_fd);
+	close_fd(des_fd);
 	return (0);
 }
