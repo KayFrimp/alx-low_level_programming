@@ -61,12 +61,6 @@ int main(int argc, char *argv[])
 			exit(99);
 		}
 		letters_rd = read(src_fd, buffer, 1024);
-		if (letters_rd == -1)
-		{
-			dprintf(STDERR_FILENO,
-				"Error: Can't read from file %s\n", argv[1]);
-			exit(98);
-		}
 	}
 	close_fd(src_fd);
 	close_fd(des_fd);
