@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 				"Error: Can't read from file %s\n", argv[1]);
 		exit(99);
 	}
-	des_fd = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	des_fd = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 	letters_rd = read(src_fd, buffer, 1024);
 	if (letters_rd == -1)
 	{
@@ -51,18 +51,22 @@ int main(int argc, char *argv[])
 			"Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
-	while (letters_rd > 0)
+	while (letters_rd == 1024)
 	{
 		letters_wr = write(des_fd, buffer, letters_rd);
-		if (des_fd == -1 || letters_wr == -1 ||
-		    letters_wr != letters_rd)
+		if (des_fd == -1 || letters_wr == -1)
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Can't write to %s\n", argv[2]);
 			exit(99);
 		}
 		letters_rd = read(src_fd, buffer, 1024);
-		des_fd = open(argv[2], O_WRONLY | O_APPEND);
+		if (letters_rd == -1)
+		{
+			dprintf(STDERR_FILENO,
+				"Error: Can't read from file %s\n", argv[1]);
+			exit(98);
+		}
 	}
 	close_fd(src_fd);
 	close_fd(des_fd);
