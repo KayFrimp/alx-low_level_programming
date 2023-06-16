@@ -11,3 +11,5 @@
 3. 3-add_dnodeint_end.c - Adds a new node at the end of a dlistint_t list.
 
 4. 4-free_dlistit.c - Frees a dlistint_t list.
+
+5. 5-get_dnodeint.c - Returns the nth node of a dlistint_t linked list.
