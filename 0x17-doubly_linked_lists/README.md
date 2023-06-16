@@ -13,3 +13,5 @@
 4. 4-free_dlistit.c - Frees a dlistint_t list.
 
 5. 5-get_dnodeint.c - Returns the nth node of a dlistint_t linked list.
+
+6. 6-sum_dlistint.c - Sums all the data(n) of a dlistint_t linked list.
