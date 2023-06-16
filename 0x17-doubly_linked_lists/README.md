@@ -9,3 +9,5 @@
 2. 2-add_dnodeint.c - Adds a new node at the beginning of a dlistint_t list.
 
 3. 3-add_dnodeint_end.c - Adds a new node at the end of a dlistint_t list.
+
+4. 4-free_dlistit.c - Frees a dlistint_t list.
