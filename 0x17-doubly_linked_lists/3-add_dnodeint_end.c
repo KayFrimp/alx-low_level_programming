@@ -11,12 +11,19 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node, *ptr;
 
-	if (*head == NULL)
-		return (add_firstdnodeint(head, n));
-
 	new_node = malloc(sizeof(dlistint_t));
 	if (new_node == NULL)
 		return (NULL);
+
+	if (*head == NULL)
+	{
+		/* return (add_firstdnodeint(head, n)); */
+		new_node->n = n;
+		new_node->next = NULL;
+		new_node->prev = NULL;
+		*head = new_node;
+		return (new_node);
+	}
 
 	ptr = *head;
 	while (ptr->next != NULL)
@@ -36,17 +43,18 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
  * @n: Integer value of first node
  *
  * Return: Address of first node or NULL
+ *
+ * dlistint_t *add_firstdnodeint(dlistint_t **head, const int n)
+ * {
+ *	dlistint_t *first_node = malloc(sizeof(dlistint_t));
+ *
+ *	if (first_node == NULL)
+ *		return (NULL);
+ *
+ *	first_node->prev = NULL;
+ *	first_node->n = n;
+ *	first_node->next = NULL;
+ *	*head = first_node;
+ *	return (*head);
+ * }
  */
-dlistint_t *add_firstdnodeint(dlistint_t **head, const int n)
-{
-	dlistint_t *first_node = malloc(sizeof(dlistint_t));
-
-	if (first_node == NULL)
-		return (NULL);
-
-	first_node->prev = NULL;
-	first_node->n = n;
-	first_node->next = NULL;
-	*head = first_node;
-	return (*head);
-}
